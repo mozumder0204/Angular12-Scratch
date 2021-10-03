@@ -8,11 +8,7 @@
     alt="Angular 12 Example Scratch" width="140" height="140">
   </a>
 **Create Web Application with Angular 12** </br>
-
-
 * Featuring [**Angular 12.0.5**](https://github.com/angular/angular/releases) & [**Angular CLI 12.0.5**](https://github.com/angular/angular-cli/releases/)
-
-
 </td>
 </tr>
 </table>
