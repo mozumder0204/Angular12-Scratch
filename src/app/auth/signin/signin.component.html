@@ -1,0 +1,32 @@
+<div class="login-wrapper">
+  <form [formGroup]="form" (ngSubmit)="onLogin(form.value)" class="login">
+    <label class="title">
+      <h3 class="welcome">Login</h3>
+      Angular 12 From Scratch
+    </label>
+
+    <div class="login-group">
+      <mat-form-field>
+        <input
+          matInput
+          type="text"
+          formControlName="userName"
+          placeholder="Username"
+          required
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          type="password"
+          class="password"
+          formControlName="password"
+          placeholder="Password"
+          required
+        />
+      </mat-form-field>
+      <button type="submit" class="btn btn-primary">Login</button>
+      <a routerLink="/" class="signup"> Sign up for an Account </a>
+    </div>
+  </form>
+</div>
